@@ -1,0 +1,41 @@
+
+body{
+    background-color: #222;
+    color: aliceblue;
+}
+h1{
+    text-transform: uppercase;
+}
+.meme-generator{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    text-align: center;
+}
+
+.meme-generator img{
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.meme-generator .generate-meme-btn{
+    padding: 8px 24px;
+    border:none;
+    border-left: 5px solid burlywood;
+    border-right: 5px solid burlywood;
+    margin: 20px 0;
+    font-size: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition:all 500ms ease;
+}
+
+.meme-generator .generate-meme-btn:hover{
+    padding: 8px 36px;
+    border-left: 7px solid burlywood;
+    border-right: 7px solid burlywood;
+    letter-spacing: 2px;
+}
+
+.meme-author{
+    margin: 8px;
+}
